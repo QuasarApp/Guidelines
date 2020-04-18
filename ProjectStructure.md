@@ -18,7 +18,7 @@ Main git repository
 │   │   ├── sources files
 |   |   └── resources files (or folder with resources files)
 |   └── Build system file (cmake or qmake)
-├── Doc
+├── Doc/Docs
 │   ├── Private submodule for documentation
 │   └── Documentation files
 └── Global submodule for all projects
