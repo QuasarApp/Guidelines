@@ -6,7 +6,7 @@
 ```
 Main git repository
 ├── Main build system file (cmake or qmake)
-├── ProjectDir
+├── ProjectDir(src)
 |   ├── Private submodule for Project
 |   ├── src
 │   │   ├── sources files
