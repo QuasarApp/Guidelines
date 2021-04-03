@@ -27,3 +27,6 @@ Main git repository
 
 ## Recommendations
 * Use CMake build system
+
+
+# For create new repositoy use the [CMakeProject](https://github.com/QuasarApp/CMakeProject) template.
