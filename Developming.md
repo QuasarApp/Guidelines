@@ -20,7 +20,7 @@ For build c++ projects QuasarApp group use the CMake build system.
 4. All projects should be support next cmake targets: 
     * test - for run tests.
     * deploy - for create a distribution kits.
-    * release - for prepare signed distro pacakges and update repositories
+    * release - for prepare signed distro packages and update repositories
     * doc - for generate technical documentation.
     > Do not worry. All This targets alredy sopports in the our [CMake](https://github.com/QuasarApp/CMake) toolchains and [CMakeProject](https://github.com/QuasarApp/CMakeProject) template. 
 5. All functions and classes must be documented using doxygen comments. For more information about syntaxis of the doxygen comments see the [doxygen](https://www.doxygen.nl/manual/docblocks.html) documentation
