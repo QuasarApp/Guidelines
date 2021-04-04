@@ -6,7 +6,7 @@ QuasarApp group developing guid. This page collected all guides for using progra
 
 For build c++ projects QuasarApp group use the CMake build system.
 1. All new projects should be created using our [cmake](https://github.com/QuasarApp/CMakeProject) tempalte. 
-2. All files of the projects must be signed copyright.
+2. All projects files must be copyrighted.
     > Copyright example:
     ``` cpp
 
