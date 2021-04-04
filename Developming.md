@@ -1,6 +1,6 @@
 # Developing in the QuasarApp group
 
-QuasarApp group developing guid. In this page collected all guides for using programming languages. 
+QuasarApp group developing guid. This page collected all guides for using programming languages. 
 
 ## C++
 
