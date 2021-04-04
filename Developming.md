@@ -15,7 +15,7 @@ For build c++ projects QuasarApp group use the CMake build system.
     //# Distributed under the lgplv3 software license, see the accompanying
     //#
     ```
-3. All projects must be have a tests, main shared and static library and executable file for using a main library. For more information about structure projects see [this](ProjectStructure.md) guide. 
+3. All projects must have a tests, main shared and static library and executable file for using a main library. For more information about structure projects see [this](ProjectStructure.md) guide. 
 
 4. All projects should be support next cmake targets: 
     * test - for run tests.
