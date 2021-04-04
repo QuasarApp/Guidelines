@@ -12,3 +12,4 @@ Guidelines of Development in QuasarApp
 ## List of Guidelines:
 1. [Project structure](ProjectStructure.md)
 2. [Contribution in the QuasarApp group.](Contribution.md)
+3. [Developing in the QuasarApp group.](Developming.md)
