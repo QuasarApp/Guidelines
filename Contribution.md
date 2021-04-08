@@ -12,7 +12,7 @@
 
 When developer are begin work on selected issue then he must be create a pull request with name of the solving issue. 
 
-1. The name of the pull request must be marked as a WIP (Work In Progress) if the developer still works on a selected issue.
+1. The name of the pull request must be marked as a [WIP] (Work In Progress) if the developer still works on a selected issue.
 2. When developer finished work on issue he must be remove WIP marker.
 3. The discription of the pull request must be contains the **fix #XXX** label. 
 4. If The pull request contains difficult solution or changes then a description of the pull request must be contains detailed description of the all changes in a code.
