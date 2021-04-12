@@ -1,12 +1,12 @@
 # Developing in the QuasarApp group
 
-QuasarApp group developing guid. In this page collected all guides for using programming languages. 
+QuasarApp group developing guid. This page collected all guides for using programming languages. 
 
 ## C++
 
 For build c++ projects QuasarApp group use the CMake build system.
 1. All new projects should be created using our [cmake](https://github.com/QuasarApp/CMakeProject) tempalte. 
-2. All files of the projects must be signed copyright.
+2. All projects files must be copyrighted.
     > Copyright example:
     ``` cpp
 
@@ -15,14 +15,14 @@ For build c++ projects QuasarApp group use the CMake build system.
     //# Distributed under the lgplv3 software license, see the accompanying
     //#
     ```
-3. All projects must be have a tests, main shared and static library and executable file for using a main library. For more information about structure projects see [this](ProjectStructure.md) guide. 
+3. All projects must have a tests, main shared and static library and executable file for using a main library. For more information about structure projects see [this](ProjectStructure.md) guide. 
 
 4. All projects should be support next cmake targets: 
     * test - for run tests.
     * deploy - for create a distribution kits.
-    * release - for prepare signed distro pacakges and update repositories
+    * release - for prepare signed distro packages and update repositories
     * doc - for generate technical documentation.
-    > Do not worry. All This targets alredy sopports in the our [CMake](https://github.com/QuasarApp/CMake) toolchains and [CMakeProject](https://github.com/QuasarApp/CMakeProject) template. 
+    > Do not worry. All targets alredy support in our [CMake](https://github.com/QuasarApp/CMake) toolchains and [CMakeProject](https://github.com/QuasarApp/CMakeProject) templates. 
 5. All functions and classes must be documented using doxygen comments. For more information about syntaxis of the doxygen comments see the [doxygen](https://www.doxygen.nl/manual/docblocks.html) documentation
     > Example:
     ``` cpp
@@ -56,5 +56,6 @@ Here are the basic rules for connecting them.
 3. Use submodules recursive.
     > If you have other submodules in one submodule, you must use the submodules already included recursively in place of adding new ones.
 4. In Cmake build system you must be include submodules only there wher ou using it.
+
 
 # And good luck it will be useful to you 😉 

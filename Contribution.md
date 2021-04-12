@@ -12,11 +12,12 @@
 
 When developer are begin work on selected issue then he must be create a pull request with name of the solving issue. 
 
-1. The name of the pull request must be marked as a WIP (Work In Progress) if the developer still works on a selected issue.
-2. When developer finished work on issue he must be remove WIP marker.
-3. The discription of the pull request must be contains the **fix #XXX** label. 
-4. If The pull request contains difficult solution or changes then a description of the pull request must be contains detailed description of the all changes in a code.
-5. If the project have a releases branch then all pull requests must be checkout from the release branch marked in the issue milistones.
+1. The name (title) of the pull request must be marked as a [WIP] (Work In Progress) if the developer still works on a selected issue.
+    > **Exmaple**: [WIP] My Pull Request.
+3. When developer finished work on issue he must be remove WIP marker.
+4. The discription of the pull request must be contains the **fix #XXX** label. 
+5. If The pull request contains difficult solution or changes then a description of the pull request must be contains detailed description of the all changes in a code.
+6. If the project have a releases branch then all pull requests must be checkout from the release branch marked in the issue milistones.
     > For example CQtDeployer have issue in the **1.6 milistone** then developer must be checkout from the **v1.6** branch and create pull reqest from own **task_XXX** branch to the **v1.6** branch. 
 
 
