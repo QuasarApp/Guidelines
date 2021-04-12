@@ -51,7 +51,7 @@ For build c++ projects QuasarApp group use the CMake build system.
 Almost all quasarapp projects are written so that they can be used as separate modules for new projects. Therefore, the use of submodules is inevitable.
 Here are the basic rules for connecting them. 
 
-1. All submodules must be storaged in the **3rd Party** folder.
+1. All submodules must be storaged in the **Submodules** folder.
 2. Do not include dublicate submodules.
 3. Use submodules recursive.
     > If you have other submodules in one submodule, you must use the submodules already included recursively in place of adding new ones.
